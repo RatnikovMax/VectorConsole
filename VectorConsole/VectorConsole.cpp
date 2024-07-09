@@ -3,6 +3,7 @@
 int main() {
     setlocale(LC_ALL, "ru");
     Vector vec1(2, 3, 4);
+    Vector vec2(4, 5, 6);
     std::cout << "Вектор 1: " << vec1 << std::endl;
     std::cout << "Вектор 2: " << vec2 << std::endl;
     char s;
